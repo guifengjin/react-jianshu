@@ -10,7 +10,7 @@ const Header = (props) => {
   return (
     <div className="header">
       <div className="navbar">
-        <a href="/" className="logo"></a>
+        <a href="/" className="logo"> </a>
         <div className="center">
           <div className="center-left">
             <a href="/"><i className="iconfont icon-zhinanzhen"></i>&nbsp;首页</a>
