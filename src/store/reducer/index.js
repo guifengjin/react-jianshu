@@ -1,4 +1,4 @@
-import { combineReducers } from 'redux';
+import { combineReducers } from 'redux'
 import headerReducer from './headerReducer'
 
 export default combineReducers({

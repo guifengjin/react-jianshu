@@ -1,8 +1,8 @@
-import React from 'react';
-import { connect } from 'react-redux';
-import { CSSTransition } from 'react-transition-group';
+import React from 'react'
+import { connect } from 'react-redux'
+import { CSSTransition } from 'react-transition-group'
 import * as actionType from '../../store/action'
-import './index.scss';
+import './index.scss'
 
 // 无状态组件
 const Header = (props) => {
