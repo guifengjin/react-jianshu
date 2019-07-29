@@ -40,7 +40,7 @@ const Header = (props) => {
   )
 }
 
-const mapsStateToProps = (state) => {
+const mapStateToProps = (state) => {
   return {
     focused: state.header.get('focused')
   }
@@ -57,6 +57,6 @@ const mapDispatchToProps = (dispatch) => {
 }
 
 export default connect(
-  mapsStateToProps,
+  mapStateToProps,
   mapDispatchToProps
 )(Header)
